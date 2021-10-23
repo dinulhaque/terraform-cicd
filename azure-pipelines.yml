@@ -1,6 +1,6 @@
-#this is test
-steps:
+pool: Azure Pipelines
 
+steps:
 - task: "Bash@3"
   inputs:
     targetType: 'inline'
