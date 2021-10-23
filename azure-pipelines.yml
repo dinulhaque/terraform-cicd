@@ -1,10 +1,10 @@
 #this is test
-- task: Bash@3
+- task: "Bash@3"
   inputs:
     targetType: 'inline'
     script: |
       terraform init
-- task: Bash@3
+- task: "Bash@3"
   inputs:
     targetType: 'inline'
     script: |
