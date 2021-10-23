@@ -1,0 +1,16 @@
+pool: 
+  name: Azure Pipelines
+  demands:
+  - Owner -equals Microsoft
+
+steps:
+- task: "Bash@3"
+  inputs:
+    targetType: 'inline'
+    script: |
+      terraform init
+- task: "Bash@3"
+  inputs:
+    targetType: 'inline'
+    script: |
+      terraform plan
