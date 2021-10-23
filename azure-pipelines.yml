@@ -1,4 +1,7 @@
-pool: Azure Pipelines
+pool: 
+  name: Azure Pipelines
+  demands:
+  - Owner -equals Microsoft
 
 steps:
 - task: "Bash@3"
