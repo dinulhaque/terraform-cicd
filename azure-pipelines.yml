@@ -1,4 +1,6 @@
 #this is test
+steps:
+
 - task: "Bash@3"
   inputs:
     targetType: 'inline'
